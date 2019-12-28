@@ -1,2 +1,2 @@
-# just-proger.github.io
+# site.github.io
 my_first_hosting
