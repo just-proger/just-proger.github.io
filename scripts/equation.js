@@ -7,14 +7,14 @@ function LoadServ() {
         if (D > 0) {
             var X1 = ((-B) + (Math.sqrt(D))) / 2;
             var X2 = ((-B) - (Math.sqrt(D))) / 2;
-            document.getElementById("tx").innerHTML += "<div><hr></div><p>Hello: " + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + X1 + " - первый корень, " + X2 + " - второй корень.</p>";
+            document.getElementById("tx").innerHTML += "<div><hr></div><p>" + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + X1 + " - первый корень, " + X2 + " - второй корень.</p>";
         }
         else if (D == 0) {
             var X = (-B) / 2;
-            document.getElementById("tx").innerHTML += "<div><hr></div><p>Hello: " + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + X + " - два совпадающих корня</p>";
+            document.getElementById("tx").innerHTML += "<div><hr></div><p>" + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + X + " - два совпадающих корня</p>";
         }
         else if (D < 0) {
-            document.getElementById("tx").innerHTML += "<div><hr></div><p>Hello: " + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + "D < 0 -- Уравнение не имеет вещественных корней.</p>";
+            document.getElementById("tx").innerHTML += "<div><hr></div><p>" + A + "(x^2) + " + B + "x + " + C + " = 0<br/>" + "D < 0 -- Уравнение не имеет вещественных корней.</p>";
         }
         document.getElementById("tx").innerHTML += "<p>Дискриминант равен: " + D + "</p>";
     }
